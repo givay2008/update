@@ -1,0 +1,23 @@
+
+<html>
+<head>
+    <title>窗口框架-导航-横版</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+</head>
+
+<body style="background-color: gray; margin-top: 200px;border:1px solid #000;">
+
+	<script>
+		function bridgeClientToWeb(tag)
+		{
+			document.getElementById('myAnchor').innerHTML=tag;
+		}
+	</script>
+
+	<a id="myAnchor" >Microsoft</a>
+	<input type="button" onclick="bridgeClientToWeb('ButtonClick')" value="点击测试" />
+</body>
+
+</html>
